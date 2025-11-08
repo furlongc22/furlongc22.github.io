@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Connor Furlong — Mechanical Engineer</title>
+  <meta name="description" content="Mechanical Engineer — Controls, CFD, and Prototyping. Explore my projects, experience, and contact information." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f7fafc;
+      --card: #ffffff;
+      --accent: #0a192f;
+      --accent-2: #59debe;
+      --muted: #6b7280;
+      --maxw: 980px;
+    }
+
+    body {
+      font-family: Inter, sans-serif;
+      margin: 0;
+      background: var(--bg);
+      color: var(--accent);
+    }
+
+    .wrap { max-width: var(--maxw); margin: 32px auto; padding: 24px; }
+
+    /* HEADER */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .header-left h1 { margin: 0; font-size: 28px; }
+    .header-left p { margin: 4px 0; color: var(--muted); font-size: 15px; }
+
+    .links { display: flex; gap: 12px; }
+    .btn {
+      background: var(--accent);
+      color: white;
+      padding: 8px 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .btn.ghost {
+      background: transparent;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+    }
+
+    /* SECTIONS */
+    section {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 24px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+
+    h2 { margin-top: 0; }
+
+    /* PROJECTS */
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .project-card img {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .project-content ul {
+      margin: 6px 0 0 16px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .project-content a.button {
+      display: inline-block;
+      margin-top: 10px;
+      background: var(--accent-2);
+      color: #0a192f;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    /* CONTACT */
+    footer {
+      text-align: center;
+      margin-top: 32px;
+      padding: 16px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <!-- HEADER -->
+    <header>
+      <div class="header-left">
+        <h1>Connor Furlong</h1>
+        <p>Mechanical Engineering Portfolio — Controls · Aerospace · Robotics · CFD</p>
+      </div>
+      <div class="links">
+        <a class="btn" href="Connor_Furlong_Resume.pdf" download>Resume</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/connor-furlong" target="_blank">LinkedIn</a>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About</h2>
+      <p class="muted">I am a senior Mechanical Engineering student at the Milwaukee School of Engineering (MSOE) with a strong interest in energy-focused disciplines such as heat transfer, thermodynamics, and fluid mechanics. In addition to my coursework, I actively serve as Treasurer of the High Powered Rocketry Club and President of Club Soccer, roles that have honed my organizational and communication skills while keeping me engaged in hands-on, team-oriented projects.
+</p>
+
+  <p class="muted">	
+This school year for my senior design project, I am developing a fuel injector for a turbojet engine and utilizing ANSYS Fluent to model and optimize performance, as well as SOLIDWORKS to design a working prototype. This work will deepen my experience in analysis, design, and simulation for high-energy, high-precision systems.
+</p>
+
+  <p class="muted">	
+Most recently, I worked as a Product Development Engineering Intern at Rockwell Automation in Milwaukee, where I contributed to the design and testing of new products, collaborating with multidisciplinary teams to solve complex engineering challenges. Previously, as an Automation Engineering Intern at Rockwell, I focused on improving automated systems and processes, learning to adapt quickly and solve problems creatively. Earlier in my career, I served as a Rail Structure Intern at STV in Chicago, gaining experience in structural design and technical documentation.
+</p>
+
+  <p class="muted">
+Below I have listed some projects I have completed over the past several years outside of my internship work. I have attached links to google photo folders with descriptions of the photos in the "info" section of them for clarity. For more information on my specific internship experience please contact me and I would be happy to discuss it!
+</p>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="images/argonia.jpg" alt="Argonia Cup Rocket">
+        <div class="project-content">
+          <h3>Argonia Cup — 2 Stage Rocket & Payload</h3>
+          <p>Payload team lead for a 2-stage rocket transporting 9 golf balls to 16,000 ft. Designed, modeled, built, and tested payload section.</p>
+          <ul>
+            <li><strong>Tools:</strong> OpenRocket, SolidWorks, laser cutting</li>
+            <li><strong>Results:</strong> Successful payload integration, undersized ejection charge prevented safe return</li>
+          </ul>
+          <a class="button" href="https://www.youtube.com/watch?v=6G-f2KblWvo" target="_blank">Watch Video</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="images/egglaunch.jpg" alt="Internal Egg Launch">
+        <div class="project-content">
+          <h3>Internal Egg Launch Competition</h3>
+          <p>Team of 3 developing a rocket under an 80 Ns impulse limit to carry an egg safely while achieving maximum altitude.</p>
+          <ul>
+            <li><strong>Tools:</strong> OpenRocket, SolidWorks, laser cutting, fabrication</li>
+            <li><strong>Results:</strong> Won highest launch at ~1300 ft with an uncracked egg</li>
+          </ul>
+          <a class="button" href="https://photos.app.goo.gl/eTZ9b6MzcCSSQedi6">View Photos</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="images/mobilerobot.jpg" alt="Mobile Robot">
+        <div class="project-content">
+          <h3>Mobile Robot — Mechatronics Class</h3>
+          <p>Team lead of 3 for coding algorithms and sensing method for a robot to detect and classify objects.</p>
+          <ul>
+            <li><strong>Tools:</strong> MATLAB, Fritzing (wiring), system design</li>
+            <li><strong>Results:</strong> Fastest and most accurate sensing of 4 objects in about 1 minute</li>
+          </ul>
+          <a class="button" href="https://photos.app.goo.gl/7ZzokTQCTe95ibHEA" target="_blank">View Photos</a>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card">
+        <img src="images/swerve.jpg" alt="Custom Swerve Drive">
+        <div class="project-content">
+          <h3>Custom Swerve Drive</h3>
+          <p>Individual project exploring mechanics and software algorithms for a 3-wheel swerve drive.</p>
+          <ul>
+            <li><strong>Tools:</strong> VEX V5 Robotics, C++</li>
+            <li><strong>Results:</strong> Stable drive with optimized wheel path control</li>
+          </ul>
+          <a class="button" href="https://photos.app.goo.gl/88LAecjAJ2eHPDZi6" target="_blank">View Photos</a>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project-card">
+        <img src="images/pingpong.jpg" alt="Ping Pong Robot">
+        <div class="project-content">
+          <h3>Ping Pong Robot</h3>
+          <p>Personal project to replicate ping pong serves and improve ping pong return performance.</p>
+          <ul>
+            <li><strong>Tools:</strong> VEX V5 Robotics, C++</li>
+            <li><strong>Results:</strong> Fully functional robot improved gameplay and consistency</li>
+          </ul>
+          <a class="button" href="https://photos.app.goo.gl/77nNempVKRTewEEe8" target="_blank">View Photos</a>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="project-card">
+        <img src="images/frc.jpg" alt="FRC Rapid React">
+        <div class="project-content">
+          <h3>FIRST Robotics — Rapid React 2022</h3>
+          <p>Lead mechanical design; developed and implemented pneumatic systems for collection and climbing mechanisms.</p>
+          <ul>
+            <li><strong>Tools:</strong> Autodesk Inventor, pneumatics, mechanical design</li>
+            <li><strong>Results:</strong> Regional playoff first pick; received individual awards for leadership and innovation</li>
+          </ul>
+          <a class="button" href="https://photos.app.goo.gl/WCCjXnYAZB5dmSG86" target="_blank">View Photos</a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <footer>
+      <p>📩 Reach out: <a href="mailto:furlongc22@gmail.com">furlongc22@gmail.com</a></p>
+      <p>© <span id="year"></span> Connor Furlong</p>
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
